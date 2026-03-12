@@ -1,0 +1,37 @@
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+error_log
+php_errors.log
+
+# Environment (quan trọng - chứa password, API key)
+.env
+.env.local
+config.php
+database.php
+
+# Dependency
+vendor/
+composer.lock
+
+# Upload của người dùng (nếu có)
+uploads/
+storage/
+
+# Cache
+cache/
+*.tmp
+*.temp
+
+# Session
+sessions/
+
+# Node (nếu dùng thêm)
+node_modules/
